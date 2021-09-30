@@ -28,3 +28,20 @@ subButton.addEventListener('click', () =>{
   subAnswer.textContent = result;
 })
 
+
+import { multiplication } from './calculations.js';
+
+const multiplyInput1 = document.getElementById('multiply-input-1');
+const multiplyInput2 = document.getElementById('multiply-input-2');
+const multiplyButton = document.getElementById('multiply-button');
+const multiplyAnswer = document.getElementById('multiply-answer');
+
+multiplyButton.addEventListener('click', () => {
+  const value5 = Number(multiplyInput1.value);
+  const value6 = Number(multiplyInput2.value);
+  const result = multiplication(value5, value6);
+  console.log(result);
+  multiplyAnswer.textContent = result;
+
+});
+
