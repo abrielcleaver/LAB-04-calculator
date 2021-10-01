@@ -1,12 +1,28 @@
+body {
+    background-color: #cb997e;
+}
+
 h1 {
     margin-left: 10px;
     font-family: "Montserrat" sans-serif;
-    font-weight: lighter;
+    color: #ffe8d6;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: large;
+    color: white;
+    
 }
 
 h2 {
     font-family: "Montserrat" sans-serif; 
     font-weight: lighter;
+    color: #6b705c;
 }
 
 main {
@@ -17,7 +33,24 @@ main {
 }
 
 .calculation {
-    border: 1px solid green;
+    border: 5px solid #6b705c;
+    border-radius: 10px;
     padding: 20px;
-
 }
+#add-button {
+    font-family: "Montserrat";
+}
+
+#sub-button {
+    font-family: "Montserrat";
+}
+
+#multiply-button {
+    font-family: "Montserrat";
+}
+
+#divide-button {
+    font-family: "Montserrat";
+}
+
+
