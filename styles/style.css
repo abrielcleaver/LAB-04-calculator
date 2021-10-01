@@ -2,12 +2,24 @@ body {
     background-color: #cb997e;
 }
 
-h1 {
-    margin-left: 10px;
+#header {
+    padding: 10px;
     font-family: "Montserrat" sans-serif;
     color: #ffe8d6;
+    background-color: #6b705c;
+    display: flex;
+    justify-content: left;   
+}
+
+h1 {
+    margin-left: 10px;
+
+}
+h3 {
+    padding-top: 40px;
     display: flex;
     justify-content: center;
+    color:white;
 }
 
 p {
@@ -16,7 +28,6 @@ p {
     font-family: "Montserrat";
     font-size: large;
     color: white;
-    
 }
 
 h2 {
