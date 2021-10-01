@@ -50,18 +50,30 @@ main {
 }
 #add-button {
     font-family: "Montserrat";
+    background-color: #6b705c;
+    color: white;
+    border-radius: 10px;
 }
 
 #sub-button {
     font-family: "Montserrat";
+    background-color: #6b705c;
+    color: white;
+    border-radius: 10px;
 }
 
 #multiply-button {
     font-family: "Montserrat";
+    background-color: #6b705c;
+    color: white;
+    border-radius: 10px;
 }
 
 #divide-button {
     font-family: "Montserrat";
+    background-color: #6b705c;
+    color: white;
+    border-radius: 10px;
 }
 
 
